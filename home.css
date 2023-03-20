@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Josefin+Sans:wght@100;200;300;400&family=Lora:ital,wght@1,400;1,500;1,600&family=Playfair+Display:ital,wght@0,400;0,500;0,800;1,400&family=Varela&display=swap');
+
+/* .top-header{
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    height: 10px;
+}
+.head-container, .listItem{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-around;
+}
+.phone{
+    width: 15px;
+}
+.right-sd{
+    float: left;
+    width: 40%;
+    padding: 9px 0px;
+}
+.right-sd, .left-sdul li a {
+    color: black;
+    text-decoration: none;
+} */
+body{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar{
+    z-index: 2;
+    display: flex;
+    color: #3b3b3b;
+    border-bottom: 1px solid black;
+    
+}
+.listItem a{
+    text-decoration: none;
+}
+.list{
+    display: flex;
+    flex: 2;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.image{
+    padding-left: 10px;
+}
+
+.logo{
+    width: 60px;
+}
+.hero-section{
+    width: 100vw;
+}
+.hero{
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-image: url('https://www.hdhotels.com/content/imgsxml/panel_herohotel/1.cabecerahdpctf399.jpg');
+}
+.hero-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    flex-direction: column;
+    /* background-color: red; */
+    /* margin-top: 180px;
+    margin-bottom: 180px;
+    margin-right: 700px; */   
+}
+.hero-desc h2{
+    color: rgb(0, 0, 0);
+}
+.hero-desc p{
+    color:rgb(0, 0, 0);
+    font-weight: 900;
+}
+#info{
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    height: 50vh;
+    color: white;
+    margin-top: 40px;
+}
+.info-container{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border-right: 600px;
+}
+h1{
+    font-size: 30px;
+}
+
+.info{
+    margin-left: 150px;
+    margin-right: 100px;
+    text-align: left;
+
+}
+.info-cont{
+    display: flex;
+    flex: 2;
+    margin-right: 20px;
+    align-items: center;
+}
+.info-cont-image{
+    width: 100px;
+}
+#about{
+    display: flex;
+    height: 50vh;
+    color: black;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right:100px;
+}
+.about-container{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    float: left;
+}
+.about{
+    /* margin-left: 150px; */
+    /* margin-right: 150px; */
+    text-align: left;
+    margin-right: 150px;
+}
+.btnn{
+    width: 140px;
+    height: 40px;
+    background: #48887b;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    border: solid 2px #48887b;
+}
+.btnn:hover{
+    /* background-color: white; */
+    color: #48887b;
+}
+.btnn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.about-cont{
+    display: flex;  
+    flex: 2;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.about-cont-image{
+    width: 280px;
+    height: 430px;
+}
+#footer {	
+	float: Left;	
+	width: 100%;	
+	background: #48887b;	
+}
+.site-footer{
+    display: flex;
+    height: 200px;
+    max-width: 80%;
+    /* margin: 0 auto; */
+    line-height: 38px;
+    justify-content: space-between;
+    list-style: none;
+}
+.foot-section h4 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+    font-family: 'playfair_displayregular';
+	font-weight: 500;
+}
+.site-info {
+	background: #111;	
+	float: left;	
+	width: 100%;		
+	line-height: 48px;
+}
+.site-info ul {
+    text-align: center;
+    float: left;
+    width: 100%;
+    list-style-type:none;
+    color: #dadada;
+}
+.site-info ul li a {
+    color: #c9c9c9;
+    font-family: 'muliregular';
+    font-weight: lighter;
+    font-size: 15px;
+    text-decoration: none;
+}
+.foot-section ul.usefulbtn li a {
+    color: #fff;
+    text-decoration: none;
+    /* list-style: none; */
+}
+.foot-section a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+

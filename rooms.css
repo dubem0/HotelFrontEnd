@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Josefin+Sans:wght@100;200;300;400&family=Lora:ital,wght@1,400;1,500;1,600&family=Playfair+Display:ital,wght@0,400;0,500;0,800;1,400&family=Varela&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar{
+    z-index: 2;
+    display: flex;
+    color: #3b3b3b;
+    border-bottom: 1px solid black;
+    
+}
+.listItem a{
+    text-decoration: none;
+}
+.list{
+    display: flex;
+    flex: 2;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.image{
+    padding-left: 10px;
+}
+
+.logo{
+    width: 60px;
+}
+.hero-section{
+    width: 100vw;
+}
+.list{
+    display: flex;
+    flex: 2;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+.room{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 150px;
+    padding-right: 150px;
+    column-gap:  20px; ;
+    row-gap:20px;
+}
+.room-type{
+    justify-content: center;
+    text-align: center;
+}
+.rt{
+    height: 250px;
+}
+
+#footer {	
+	float: Left;	
+	width: 100%;	
+	background: #48887b;	
+}
+.site-footer{
+    display: flex;
+    height: 150px;
+    max-width: 80%;
+    /* margin: 0 auto; */
+    line-height: 38px;
+    justify-content: space-between;
+    list-style: none;
+}
+.foot-section h4 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+    font-family: 'playfair_displayregular';
+	font-weight: 500;
+}
+.site-info {
+	background: #111;	
+	float: left;	
+	width: 100%;		
+	line-height: 48px;
+}
+.site-info ul {
+    text-align: center;
+    float: left;
+    width: 100%;
+    list-style-type:none;
+    color: #dadada;
+}
+.site-info ul li a {
+    color: #c9c9c9;
+    font-family: 'muliregular';
+    font-weight: lighter;
+    font-size: 15px;
+    text-decoration: none;
+}
+.foot-section ul.usefulbtn li a {
+    color: #fff;
+    text-decoration: none;
+    /* list-style: none; */
+}
+.foot-section a{
+    text-decoration: none;
+}
